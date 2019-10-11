@@ -54,6 +54,7 @@
 </script>
 </head>
 <body>
+	<p>git test를 위해 추가</p>
 	<form action="join.do" method="post">
 		<fieldset>
 			<legend>회원가입</legend>
