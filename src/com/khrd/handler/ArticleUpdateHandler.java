@@ -15,7 +15,6 @@ public class ArticleUpdateHandler implements CommandHandler {
 
 	@Override
 	public String process(HttpServletRequest req, HttpServletResponse resp) throws Exception {
-		req.setCharacterEncoding("utf-8");
 		if(req.getMethod().equalsIgnoreCase("get")) {
 			int no = Integer.parseInt(req.getParameter("no"));
 			Connection conn = null;
