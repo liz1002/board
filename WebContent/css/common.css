@@ -16,7 +16,16 @@ span.error{
 	font-size: 10px;
 	display: none;
 }
- span.notMatch{
+span.ok{
+	font-size: 10px;
+	display: none;
+	margin-left: 120px;
+}
+span.notMatch{
  	color: red;
 	font-size: 10px;
+}
+
+.idError{
+	margin-left: 120px;
 }

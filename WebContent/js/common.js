@@ -14,7 +14,7 @@ function checkInputEmpty( $objs ) {
 	
 	$objs.each(function(i, obj) {
 		if($(obj).val() == ""){
-			$(obj).next().css("display", "inline");
+			$(obj).siblings(".error").eq(0).css("display", "inline");
 			count++;
 		}
 	})
